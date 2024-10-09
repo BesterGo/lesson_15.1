@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>ToDo</h1>
+        <input type="text" id="new-task" placeholder="Сделать проект">
+        <button id="add-task">Создать</button>
+
+        <div class="filter-buttons">
+            <button id="all">Все</button>
+            <button id="completed">Выполненные</button>
+            <button id="not-completed">Невыполненные</button>
+        </div>
+
+        <ul id="task-list">
+            <!-- Example Tasks -->
+            <li class="task" data-completed="false">Купить молоко</li>
+            <li class="task" data-completed="false">Позвонить маме</li>
+            <li class="task" data-completed="false">Почитать книгу</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
